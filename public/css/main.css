@@ -1,0 +1,60 @@
+li.departmentInfo a.glyphicon {
+ 	padding-left: 10px;
+}
+.alert {
+	position: fixed;
+    z-index: 1000;
+    /* top: 20px; */
+    right: 20px;
+}
+.notification-bar {
+   	width: 500px;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 0;
+    right: 0;
+    text-align: center;
+}
+.notification-bar .panel {
+	margin: 0;
+}
+.notification-bar .panel-body {
+	display: none;
+}
+.notification-bar .panel-heading {
+	cursor: pointer;
+}
+#messages{
+	text-align: initial;
+    border: 1px solid black;
+    height: 300px;
+    margin-bottom: 8px;
+    overflow: auto;
+    padding: 5px;
+}
+.fr {
+    float:right;
+}
+.mgnPopup {
+    background: #FFF;
+    padding: 20px 30px;
+    text-align: left;
+    max-width: 600px;
+    margin: 40px auto;
+    position: relative;
+}
+.btn-group {
+    margin-top: 15px;
+}
+ul li {
+    list-style: none;
+}
+.roles a {
+    text-decoration: none;
+}
+.roles .toggle {
+    display: none;
+}
+.roles .visible {
+    display: block;
+}
