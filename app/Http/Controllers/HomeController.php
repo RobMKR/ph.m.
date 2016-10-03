@@ -39,24 +39,4 @@ class HomeController extends Controller
         $redis->publish('message', json_encode($data));
         return response()->json([]);
     }
-
-    /**
-     * Departments Page
-     *
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     */
-    public function departments(){
-        $viewData['departments'] = Department::All();
-        return view('departments')->with('data', $viewData);
-    }
-
-    /**
-     * Tickets Page
-     *
-     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
-     */
-    public function tickets(){
-        $viewData['tickets'] = Ticket::All();
-        return view('tickets')->with('data', $viewData);
-    }
 }
